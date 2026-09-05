@@ -116,6 +116,14 @@ export const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
 export const SENDGRID_FROM_EMAIL = process.env.SENDGRID_FROM_EMAIL || process.env.SENDGRID_FROM;
 
 /**
+ * (required when using SendGrid) Dynamic Template IDs from the SendGrid dashboard.
+ * @medusajs/notification-sendgrid sends `template` straight through to SendGrid as the
+ * templateId, so it must be a real "d-..." Dynamic Template ID, not a Resend template key.
+ */
+export const SENDGRID_INVITE_USER_TEMPLATE_ID = process.env.SENDGRID_INVITE_USER_TEMPLATE_ID;
+export const SENDGRID_ORDER_PLACED_TEMPLATE_ID = process.env.SENDGRID_ORDER_PLACED_TEMPLATE_ID;
+
+/**
  * (optional) Stripe API key and webhook secret
  */
 export const STRIPE_API_KEY = process.env.STRIPE_API_KEY;
