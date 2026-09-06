@@ -125,7 +125,7 @@ const medusaConfig = {
               api_key: SENDGRID_API_KEY,
               from: SENDGRID_FROM_EMAIL,
             }
-          }] : []),
+          }] : []), 
           ...(RESEND_API_KEY && RESEND_FROM_EMAIL ? [{
             resolve: './src/modules/email-notifications',
             id: 'resend',
