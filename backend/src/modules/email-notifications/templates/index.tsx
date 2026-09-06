@@ -19,7 +19,7 @@ export function generateEmailTemplate(templateKey: string, data: unknown): React
           `Invalid data for template "${EmailTemplates.INVITE_USER}"`
         )
       }
-      return <InviteUserEmail {...data} />
+      return <InviteUserEmail {...data} /> 
 
     case EmailTemplates.ORDER_PLACED:
       if (!isOrderPlacedTemplateData(data)) {

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@eancarr/klaviyo-medusa": "^0.2.5"
+  }
+}

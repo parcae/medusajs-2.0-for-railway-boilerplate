@@ -177,7 +177,13 @@ const medusaConfig = {
           }
         }
       }
-    }] : [])
+    }] : []),
+     {
+    resolve: "@eancarr/klaviyo-medusa",
+    options: {
+      apiKey: process.env.KLAVIYO_API_KEY,
+    },
+  },
   ]
 };
 
