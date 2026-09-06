@@ -65,7 +65,7 @@ const medusaConfig = {
   },
   modules: [
     {
-      resolve: '@medusajs/medusa/translation',
+      resolve: '@medusajs/translation',
     },
     {
       key: Modules.FILE,
