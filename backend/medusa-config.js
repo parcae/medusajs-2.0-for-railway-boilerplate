@@ -60,7 +60,13 @@ const medusaConfig = {
     backendUrl: BACKEND_URL,
     disable: SHOULD_DISABLE_ADMIN,
   },
+  featureFlags: {
+    translation: true,
+  },
   modules: [
+    {
+      resolve: '@medusajs/medusa/translation',
+    },
     {
       key: Modules.FILE,
       resolve: '@medusajs/file',
