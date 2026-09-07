@@ -46,8 +46,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@rokmohar/medusa-plugin-meilisearch':
-        specifier: 1.4.3
-        version: 1.4.3(urnhriiguriqbnisk6wn4ddx2e)
+        specifier: 2.0.0
+        version: 2.0.0(urnhriiguriqbnisk6wn4ddx2e)
       medusajs-launch-utils:
         specifier: 0.0.19
         version: 0.0.19
@@ -3968,18 +3968,18 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
-  '@rokmohar/medusa-plugin-meilisearch@1.4.3':
-    resolution: {integrity: sha512-+iStv5sc2vuLk+O7OcQLlNR99fMBhGdBOJMCmDJYoTFGhzBA4ZEV18IIr2xqxUDgdQo1haF0TtYv3JmRQUuY1w==}
+  '@rokmohar/medusa-plugin-meilisearch@2.0.0':
+    resolution: {integrity: sha512-yKJQGRueBO5v8bSS+uFF8CR+/Ap2BpjXdHxB4Ke8JsFfv13GdIFa1VSfwUanV2l/jz3StBh9DdUPVle1qcdA6A==}
     engines: {node: '>=22'}
     peerDependencies:
-      '@medusajs/admin-sdk': ^2.15.2
-      '@medusajs/framework': ^2.15.2
-      '@medusajs/medusa': ^2.15.2
-      '@medusajs/ui': ^4.1.12
+      '@medusajs/admin-sdk': ^2.19.0
+      '@medusajs/framework': ^2.19.0
+      '@medusajs/medusa': ^2.19.0
+      '@medusajs/ui': ^4.2.1
       '@tanstack/react-query': 5.64.2
       awilix: ^8.0.1
-      react: ^18
-      react-dom: ^18
+      react: ^18.3.1
+      react-dom: ^18.3.1
 
   '@rolldown/pluginutils@1.0.0-rc.3':
     resolution: {integrity: sha512-eybk3TjzzzV97Dlj5c+XrBFW57eTNhzod66y9HrBlzJ6NsCrWCp/2kaPS3K9wJmurBC0Tdw4yPjXKZqlznim3Q==}
@@ -13205,7 +13205,7 @@ snapshots:
       '@react-types/shared': 3.32.1(react@18.3.1)
       react: 18.3.1
 
-  '@rokmohar/medusa-plugin-meilisearch@1.4.3(urnhriiguriqbnisk6wn4ddx2e)':
+  '@rokmohar/medusa-plugin-meilisearch@2.0.0(urnhriiguriqbnisk6wn4ddx2e)':
     dependencies:
       '@medusajs/admin-sdk': 2.20.1
       '@medusajs/framework': 2.20.1(@medusajs/cli@2.20.1(@types/node@20.19.25))(@types/node@20.19.25)(ioredis@5.8.2)(vite@5.4.21(@types/node@20.19.25))(zod@4.2.0)

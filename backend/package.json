@@ -32,7 +32,7 @@
     "@medusajs/payment-stripe": "2.20.1",
     "@medusajs/workflow-engine-redis": "2.20.1",
     "@react-email/components": "^1.0.1",
-    "@rokmohar/medusa-plugin-meilisearch": "1.4.3",
+    "@rokmohar/medusa-plugin-meilisearch": "2.0.0",
     "medusajs-launch-utils": "0.0.19",
     "posthog-node": "^5.11.0",
     "resend": "4.0.1"
